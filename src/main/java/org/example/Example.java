@@ -3,7 +3,7 @@ package org.example;
 public class Example {
 
     public void print(){
-        System.out.print("This is an example");
+        System.out.print("This is an example!!!");
     }
 
     public int makeItDouble(int n){
@@ -13,4 +13,6 @@ public class Example {
     public int makeItTriple(int n){
         return n*3;
     }
+
+
 }
