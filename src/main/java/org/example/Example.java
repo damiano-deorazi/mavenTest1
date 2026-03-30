@@ -6,7 +6,11 @@ public class Example {
         System.out.print("This is an example");
     }
 
-    public int makeItDouble(int num){
-        return num*2;
+    public int makeItDouble(int n){
+        return n*2;
+    }
+
+    public int makeItTriple(int n){
+        return n*3;
     }
 }

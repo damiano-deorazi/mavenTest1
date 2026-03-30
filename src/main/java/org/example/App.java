@@ -12,6 +12,8 @@ public class App
         Example myExample = new Example();
         myExample.print();
         int num = myExample.makeItDouble(3);
-        System.out.print("My result: " + num);
+        System.out.print("My double result: " + num);
+        num = myExample.makeItTriple(3);
+        System.out.print("My triple result:" + num);
     }
 }
